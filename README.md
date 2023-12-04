@@ -27,6 +27,7 @@ Notes:
 
 - Puzzles are always generating using a sort of reverse backtrace (ie. filling in diagonal using random permutation, solving puzzle, and then removing cells). This means that sometimes generating the puzzle takes longer than solving it (especially for big puzzles). The unit test times only the solver function
 - During the class demo, in the speed test, our first puzzle took an order of magnitude longer to solve for the backtracer than the other 9 puzzles. Upon investigation, it turns out that this was likely because of the constant random seed (there is significant variability in time to solve puzzles for backtracer, the Alternating Projections approach seems to be less variable for given puzzle configuration)
+- Build reqiures the `armadillo` library. Details: http://arma.sourceforge.net/.
 
 
 Items to grade:
@@ -35,22 +36,9 @@ Items to grade:
 2. Back-tracking solver (the "solve" function in solve.cpp)
 3. Alternating projection solver (the "DR" function in altproj.cpp)
 
-## Project Contributions ##
 
-1. Matt:
-    * implemented two Sudoku solvers: backtracking and alternating projections
-    * implemented function to generate a Sudoku puzzle
 
-2. Alex:
-    * implements actual game-play and game-play logic (taking user input, printing/formatting to screen etc.)
-    * implemented comamnd line flags and associated functions(ie. unit testing / timing functions)
-
-## Notes on Building Project ##
-
-Build reqiures the `armadillo` library.  You can download it from the website
-http://arma.sourceforge.net/.
-
-## References ##
+References:
 
 1. Pseudo-code for backtracking algorithm
     - http://moritz.faui2k3.org/en/yasss
