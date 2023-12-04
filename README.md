@@ -40,12 +40,9 @@ Items to grade:
 
 References:
 
-1. Pseudo-code for backtracking algorithm
-    - http://moritz.faui2k3.org/en/yasss
+1. Pseudo-code for backtracking algorithm can be found here: http://moritz.faui2k3.org/en/yasss
 
-2. Idea to use Douglas-Rachford splitting to solve Sudoku
-    - "Recent Results on Douglas–Rachford Methods for Combinatorial Optimization Problems"
+2. Idea to use Douglas-Rachford splitting to solve Sudoku was found in "Recent Results on Douglas–Rachford Methods for Combinatorial Optimization Problems"
 
-3. Function timing code
-	- http://stackoverflow.com/questions/29719999/testing-function-for-speed-performance-in-cpp
+3. Function timing code was taken as a reference in: http://stackoverflow.com/questions/29719999/testing-function-for-speed-performance-in-cpp
 
