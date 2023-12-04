@@ -1,5 +1,5 @@
 # sudoku
-C++ sudoku game
+This is a C++ sudoku game solver
 
 ## Program Use ##
 
